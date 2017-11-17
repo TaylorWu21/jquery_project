@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div id='wrapper'>
+      <div id='options'>
+        <h1 id='title'>Super Cool Service</h1>
+        <h2 id='price'>$10.00 / Mo</h2>
+        <p>Choose a plan</p>
+        <select id='plan'>
+          <option value='monthly'>Monthly</option>
+          <option value='quarterly'>Quarterly</option>
+          <option value='yearly'>Yearly</option>
+        </select>
+        <button id='add'>Add to cart</button>
+        <button id='display_cart'>Hide Cart</button>
+      </div>
+      <div id='cart'>
+        <h1>Cart</h1>
+        <hr />
+        <button id='empty'>Clear Cart</button>
+        <ul id='in_cart'>
+        </ul>
+        <h2 id='total'>$0</h2>
+        <div id='complete'>
+          <button id='purchase'>Purchase</button>
+        </div>
+      </div>
+    </div>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src='main.js'></script>
+    <!-- This is if you download the jquery library -->
+    <!-- <script src='jquery-3.2.1.min.js'></script> -->
+  </body>
+</html>
